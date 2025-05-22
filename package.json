@@ -1,5 +1,5 @@
 {
-  "name": "dbml2typeorm-entity-generator",
+  "name": "typeorm-entity-generator",
   "version": "1.0.0",
   "description": "DBML to TypeORM entity generator with enum extraction",
   "main": "dist/index.js",
