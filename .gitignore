@@ -1,0 +1,9 @@
+node_modules
+.tomg-config
+dbml-error.log
+pnpm-lock.yaml
+schema.dbml
+schema.sql
+dist
+output
+.env

@@ -1,0 +1,9 @@
+src/
+tests/
+*.log
+*.dbml
+*.sql
+pnpm-lock.yaml
+tsconfig.json
+jest.config.js
+.env

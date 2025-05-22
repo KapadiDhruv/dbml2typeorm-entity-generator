@@ -1,0 +1,47 @@
+{
+  "name": "dbml2typeorm-entity-generator",
+  "version": "1.0.0",
+  "description": "DBML to TypeORM entity generator with enum extraction",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "output"
+  ],
+  "bin": {
+    "dbml-package": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "generate": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "dbml",
+    "typeorm",
+    "generator",
+    "postgres",
+    "enum"
+  ],
+  "author": "Dhruv Kapadi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "@dbml/cli": "^3.13.5",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^22.15.21",
+    "@types/pg": "^8.15.2",
+    "jest": "^29.0.0",
+    "ts-node": "^10.9.1",
+    "typeorm-model-generator": "^0.4.6",
+    "typescript": "^4.9.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
