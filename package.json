@@ -9,7 +9,7 @@
     "output"
   ],
   "bin": {
-    "dbml-package": "dist/index.js"
+    "typeorm-entity-generator": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
